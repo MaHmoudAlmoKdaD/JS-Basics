@@ -10,5 +10,13 @@
             <label for="second_number">second number : </label><input type="text" id="second_number" name="second_number"/><br/>
             <button  id="validate" name ="validate">validate</button>
         </form>
+        <script>
+            let num1 = prompt('enter first number');
+            let num2 = prompt('enter second number');
+            alert(`${num1} * ${num2} = ${multiNumbers(num1, num2)}`);
+            function multiNumbers (num1, num2) {
+                return num1 * num2;
+            }
+        </script>
     </body>
 </html>
